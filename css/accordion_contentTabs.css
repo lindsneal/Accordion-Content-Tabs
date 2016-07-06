@@ -1,0 +1,90 @@
+.wrapper{
+
+  width:72%;
+  overflow:hidden;
+  margin: 0 auto;
+  background:#666;
+}
+
+/********Tab Content-- Products page********/
+a.close_dataLayers {
+  display: none;
+  width: 80px;
+height: 66px;
+text-indent: -9999px;
+position: fixed;
+z-index: 10000000000000000000;
+/*left:20px;*/
+left: 100px;
+top: 20px;
+background: url("../img/data_layerHover.png") no-repeat center 43%;
+background-color: rgba(150, 148, 148, .6);
+}
+.dataLayerTab{
+width: 100%;
+display: block;
+text-align: center;
+padding-top: 2%;
+background: rgba(212, 207, 138,.7);
+    background: #9DBAAA;
+    background: -webkit-linear-gradient(#AFCEBE, #9DBAAA);
+    background: -o-linear-gradient(#AFCEBE, #9DBAAA);
+    background: -moz-linear-gradient(#AFCEBE, #9DBAAA);
+    background: linear-gradient(#AFCEBE, #9DBAAA);
+    border-bottom: 1px solid #D4CF8A;
+  cursor: pointer;
+}
+.dataLayerTab:hover{
+  background: #8EA596;
+  color:#4B4C4C;
+}
+.dataLayerTab a {
+  color:#4B4C4C;
+  }
+  .dataLayerTab a:visited, .dataLayerTab a:focus{
+  color:#4B4C4C;
+  }
+  .dataLayerTab h4{
+  color:#5B4C4C;
+  width: 100%;
+  text-align: center;
+  font-weight:bold;
+  font-size: 1.6em;
+  }
+  .close{
+  text-indent: -1000000000px;
+  background:url(../img/downArrow.png);
+  background-repeat: no-repeat;
+  width:60px;
+  height:30px;
+  background-position:50%;
+  opacity:.2;
+  }
+  .close:hover{
+opacity:.2;
+  }
+.content{
+  width:100%;
+background: #8EA596;
+  color:#4B4C4C;
+  display:none;
+  padding-top:3%;
+  padding-bottom:3%;
+
+}
+.content p{
+  display:block;
+color:#4B4C4C;
+}
+
+ul.list1{
+  list-style-type: none;
+  text-align: center;
+
+}
+span.tradeMark{
+font-size:.7em;
+}
+
+
+
